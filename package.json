@@ -4,8 +4,8 @@
   "description": "a module",
   "main": "index.js",
   "scripts": {
-    "lint": "eslint .",
-    "test": "mocha-phantomjs -R dot test/index.html"
+    "lint": "./node_modules/.bin/eslint .",
+    "test": "./node_modules/.bin/mocha-phantomjs -R dot test/index.html"
   },
   "repository": {
     "type": "git",
